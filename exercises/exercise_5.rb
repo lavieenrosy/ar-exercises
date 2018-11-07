@@ -8,3 +8,10 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+
+puts 'SUM'
+puts Store.sum('annual_revenue')
+puts 'AVERAGE'
+puts Store.average('annual_revenue')
+
+p Store.where('annual_revenue > 1000000').count
